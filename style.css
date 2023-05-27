@@ -47,33 +47,24 @@ nav .container{
     cursor: pointer;
 }
 .nav-box1{
-    margin-right: 170px;
+    margin-right: 140px;
 }
 .nav-box2{
-    margin-left: 190px;
+    margin-left: 10px;
     display: flex;
     align-items: center;
 }
 .nav-box2 p{
     margin-left: 10px;
 }
-.main-all{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
-.main-text,.main-photo{
-    width: 49%;
+
+.main-text{
+    width: 58%;
 }
 .main-text{
     margin-top: 150px;
 }
-.main-photo img{
-    width: 800px; 
-}
-main img{
-    position: absolute;  
-} */
+
 .main-text strong{
     color: #018FA3;
     font-size: 48px;
@@ -85,6 +76,50 @@ main img{
     font-weight: 500;
     line-height: 59px;
 }
+.main-text p:nth-child(2){
+    width: 550px;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 29px;
+    margin-top: 20px;
+}
+.main-text a{
+    height: 64px;
+    width: 244px;
+    left: 119px;
+    top: 586.0000000000002px;
+    border-radius: 30px;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 24px;
+    color: black;
+    margin-top: 30px;
+    border: #FAE01A 1px solid;
+    text-align: center;
+    padding-top: 16px;
+    transition: .7s;
+}
+.main-text a:hover{
+    background-color: #FAE01A;
+    box-shadow: 0px 0px 50px  0px #FAE01A;
+    transition: .7s;
+    color: white;
+}
+.til{
+    width: 50px;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 100px;
+}
+.til a{
+    font-weight: 700;
+    color: black;
+}
+.til a:hover{
+    border-bottom: 2px black solid;
+}
+
+
 
 
 
@@ -103,6 +138,9 @@ main img{
     .container{
         width: 1040px;
     }
+    .nav-box1{
+        margin-right: 10px;
+    }
 }
 @media (max-width: 1060px) { 
     .container{
@@ -114,25 +152,31 @@ main img{
     .nav-box2{
         margin-left: 130px;
     }
+    .nav-box{
+        display: none;
+    }
+    .nav-box1{
+        margin-right: 440px;
+    }
+    .nav-box2{
+        margin-left:0px;
+    }
 }
 @media (max-width: 960px) { 
     .container{
         width: 840px;
     }
-    .nav-box1{
-        margin-right: 0;
-    }
-    .nav-box2{
-        margin-left: 30px;
-    }
+    
+    
 
 }
 @media (max-width: 860px) { 
     .container{
         width: 740px;
     }
-    .nav-box{
-        display: none;
+    
+    .nav-box1{
+        margin-right: 140px;
     }
 }
 @media (max-width: 760px) { 
@@ -144,10 +188,16 @@ main img{
     .container{
         width: 540px;
     }
+    .nav-box1{
+        margin-right: 70px;
+    }
 }
 @media (max-width: 560px) { 
     .container{
         width: 440px;
+    }
+    .nav-box1{
+        margin-right: 10px;
     }
 }
 @media (max-width: 460px) { 
