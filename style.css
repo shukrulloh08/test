@@ -166,7 +166,9 @@ nav .container{
     .container{
         width: 840px;
     }
-    
+    .nav-box1{
+        margin-right: 410px;
+    }
     
 
 }
